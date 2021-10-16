@@ -1,0 +1,49 @@
+.button {
+	display: inline-block;
+
+	box-sizing: border-box;
+	padding: 12px 26px;
+
+	cursor: pointer;
+	transition: all 0.2s;
+	text-align: center;
+
+	color: var(--black);
+	border: 1px solid var(--gray-light);
+	border-radius: 5px;
+	background: none;
+
+	font-family: var(--font-family);
+
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.button:hover {
+	border: 1px solid var(--gray);
+}
+
+.button:hover svg {
+	transition: all 0.2s;
+	fill: #181716;
+}
+
+.primary {
+	color: var(--white);
+	background: var(--primary);
+}
+
+.primary:hover {
+	background: var(--primary-hover);
+}
+
+.arrow {
+	display: inline-block;
+
+	margin-left: 10px;
+}
+
+.down {
+	transition: all 0.2s;
+	transform: rotate(90deg);
+}
