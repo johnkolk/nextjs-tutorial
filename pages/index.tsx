@@ -6,7 +6,7 @@ import { withLayout } from '../layout/Layout';
 
 const Home: NextPage = () => {
   const onClick = (str: string) => {
-    alert(`Test Alert - ${str}`);
+      alert(`Test Alert - ${str}`);
   };
 
   return (
